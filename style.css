@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: system-ui;
+    height: 100vh;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+header .headertext{
+position: absolute;
+margin-left: -650px;
+}
+header .headertext p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header .headertext h1{
+    font-size: 44px;
+}
+header .headertext .button{
+    color: rgb(71, 71, 71);
+    padding: 6px 15px;
+    border-radius: 20px;
+    background-color: white;
+    max-width: 48px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+nav{
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav .navtext h2{
+    margin-bottom: 20px;
+}
+nav .navtext p {
+font-size: 14px;
+color: rgb(12, 12, 12);
+font-weight: 500;
+margin-top: 6px;
+}
+
+nav .navtext .p1 {
+ margin-left: 7px;
+}
+nav .navtext p span{
+   color: rgb(107, 107, 107);
+}
+ .bussins{
+
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAC769;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    margin-top: 35px;
+   
+}
+section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+section .sectiontext h2{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+section h2{
+    font-weight: normal;   
+}
+section .contener {
+    display: flex;
+}
+section .contener .card{
+    width: 300px;
+    height: 350px;
+    margin: 30px;
+}
+section .contener .card .cardtop {
+height: 50%;
+width: 100%;
+position: relative;
+display: flex;
+}
+section .contener .card .button {
+    position: absolute;
+    color: rgb(71, 71, 71);
+    padding: 6px 15px;
+    border-radius: 20px;
+    background-color: #FAC769;
+
+    margin-top: 10px;
+    margin-left: 5px;
+}
+section .contener .card .cardtop img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+section .contener .card .cardbottom {
+    height: 50%;
+    width: 100%;
+    background-color:#FAC769;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contener .card .cardbottom .textbuttom .pragraph h4 {
+color: black;
+text-transform: uppercase;
+font-weight: bold;
+}section .contener .card .cardbottom .textbuttom .pragraph p {
+ 
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+
+}
+aside {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.texth2{
+font-weight: normal;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+article{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+article .textarticle{
+    display: flex;
+}
+article .textarticle h1{
+    position: absolute;
+    font-size: 60px;
+    top: -3px;
+    color:#fac7699d
+}
+article .textarticle .customer{
+    margin: 30px;
+}
+article .textarticle h4{
+    margin-bottom: 20px;
+}
+article .textarticle p{
+   font-size: 13px;
+   color:rgb(129, 129, 128);
+}
+footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAC769;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    margin-top: 35px;
+}
+footer h4{
+    text-transform: uppercase;
+    color: wheat;
+}
+footer .buuton{
+    position: absolute;
+    color: rgb(71, 71, 71);
+    padding: 6px 15px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -34px;
+    margin-left: 557px;
+
+}
